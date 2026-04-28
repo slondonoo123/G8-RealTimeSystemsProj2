@@ -1,0 +1,229 @@
+{
+  "delay_units": "MICRO_SECOND",
+  "streams": [
+    {
+      "id": 0,
+      "name": "Stream0",
+      "source": "ES0",
+      "destinations": [
+        {
+          "id": "ES1",
+          "deadline": 1000
+        }
+      ],
+      "type": "ISOCHRONOUS",
+      "PCP": 2,
+      "size": 1200,
+      "period": 1000,
+      "redundancy": 0
+    },
+    {
+      "id": 1,
+      "name": "Stream1",
+      "source": "ES1",
+      "destinations": [
+        {
+          "id": "ES0",
+          "deadline": 1000
+        }
+      ],
+      "type": "ISOCHRONOUS",
+      "PCP": 2,
+      "size": 1200,
+      "period": 1000,
+      "redundancy": 0
+    },
+    {
+      "id": 2,
+      "name": "Stream2",
+      "source": "ES0",
+      "destinations": [
+        {
+          "id": "ES1",
+          "deadline": 1000
+        }
+      ],
+      "type": "ISOCHRONOUS",
+      "PCP": 2,
+      "size": 900,
+      "period": 1000,
+      "redundancy": 0
+    },
+    {
+      "id": 3,
+      "name": "Stream3",
+      "source": "ES1",
+      "destinations": [
+        {
+          "id": "ES0",
+          "deadline": 1000
+        }
+      ],
+      "type": "ISOCHRONOUS",
+      "PCP": 2,
+      "size": 900,
+      "period": 1000,
+      "redundancy": 0
+    },
+    {
+      "id": 4,
+      "name": "Stream4",
+      "source": "ES0",
+      "destinations": [
+        {
+          "id": "ES1",
+          "deadline": 2000
+        }
+      ],
+      "type": "ISOCHRONOUS",
+      "PCP": 2,
+      "size": 600,
+      "period": 2000,
+      "redundancy": 0
+    },
+    {
+      "id": 5,
+      "name": "Stream5",
+      "source": "ES1",
+      "destinations": [
+        {
+          "id": "ES0",
+          "deadline": 1000
+        }
+      ],
+      "type": "ISOCHRONOUS",
+      "PCP": 1,
+      "size": 1100,
+      "period": 1000,
+      "redundancy": 0
+    },
+    {
+      "id": 6,
+      "name": "Stream6",
+      "source": "ES0",
+      "destinations": [
+        {
+          "id": "ES1",
+          "deadline": 1000
+        }
+      ],
+      "type": "ISOCHRONOUS",
+      "PCP": 1,
+      "size": 1100,
+      "period": 1000,
+      "redundancy": 0
+    },
+    {
+      "id": 7,
+      "name": "Stream7",
+      "source": "ES1",
+      "destinations": [
+        {
+          "id": "ES0",
+          "deadline": 2000
+        }
+      ],
+      "type": "ISOCHRONOUS",
+      "PCP": 1,
+      "size": 800,
+      "period": 2000,
+      "redundancy": 0
+    },
+    {
+      "id": 8,
+      "name": "Stream8",
+      "source": "ES0",
+      "destinations": [
+        {
+          "id": "ES1",
+          "deadline": 2000
+        }
+      ],
+      "type": "ISOCHRONOUS",
+      "PCP": 1,
+      "size": 800,
+      "period": 2000,
+      "redundancy": 0
+    },
+    {
+      "id": 9,
+      "name": "Stream9",
+      "source": "ES1",
+      "destinations": [
+        {
+          "id": "ES0",
+          "deadline": 2000
+        }
+      ],
+      "type": "ISOCHRONOUS",
+      "PCP": 1,
+      "size": 600,
+      "period": 2000,
+      "redundancy": 0
+    },
+    {
+      "id": 10,
+      "name": "Stream10",
+      "source": "ES0",
+      "destinations": [
+        {
+          "id": "ES1",
+          "deadline": 2000
+        }
+      ],
+      "type": "ISOCHRONOUS",
+      "PCP": 0,
+      "size": 1000,
+      "period": 2000,
+      "redundancy": 0
+    },
+    {
+      "id": 11,
+      "name": "Stream11",
+      "source": "ES1",
+      "destinations": [
+        {
+          "id": "ES0",
+          "deadline": 2000
+        }
+      ],
+      "type": "ISOCHRONOUS",
+      "PCP": 0,
+      "size": 1000,
+      "period": 2000,
+      "redundancy": 0
+    },
+    {
+      "id": 12,
+      "name": "Stream12",
+      "source": "ES0",
+      "destinations": [
+        {
+          "id": "ES1",
+          "deadline": 1000
+        }
+      ],
+      "type": "ISOCHRONOUS",
+      "PCP": 0,
+      "size": 700,
+      "period": 1000,
+      "redundancy": 0
+    },
+    {
+      "id": 13,
+      "name": "Stream13",
+      "source": "ES1",
+      "destinations": [
+        {
+          "id": "ES0",
+          "deadline": 1000
+        }
+      ],
+      "type": "ISOCHRONOUS",
+      "PCP": 0,
+      "size": 700,
+      "period": 1000,
+      "redundancy": 0
+    }
+  ]
+}
